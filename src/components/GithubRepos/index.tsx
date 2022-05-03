@@ -58,8 +58,16 @@ export default function GithubRepos() {
 											</div>
 										</div>
 										<div className="level-right starCount">
+											<div className="content"></div>
+										</div>
+
+										<div className="level-right starCount">
 											<div className="content">
-												<i className="far fa-star"></i> {repo.stargazers_count}
+												<i className="fa-solid fa-code-fork"></i>&nbsp;
+												{repo.forks_count}
+												&nbsp; &nbsp; &nbsp; &nbsp;
+												<i className="far fa-star"></i>&nbsp;
+												{repo.stargazers_count}
 											</div>
 										</div>
 									</div>
