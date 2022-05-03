@@ -27,6 +27,10 @@ $ yarn start
 
 # generate static project
 $ yarn build
+
+# serve final product
+$ yarn global add serve
+$ serve -s build
 ```
 
 ### ✨ Special
