@@ -1,0 +1,12 @@
+@import '../../variables.scss';
+
+footer {
+	margin-top: 8rem;
+	background-color: $color-third;
+	padding: 25px 0;
+}
+
+.copyright {
+	color: $text-secondary;
+	font-size: 1.5rem;
+}
