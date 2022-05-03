@@ -1,0 +1,30 @@
+@import '../../variables.scss';
+
+.techs {
+	margin: 75px 0;
+	background-color: $color-secondary;
+}
+
+.techs-title {
+	color: $text-first;
+}
+
+.language {
+	background-color: $color-third;
+	padding: 15px 20px;
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	&:hover {
+		transform: translateY(-3px);
+		transition: 0.4s;
+	}
+}
+.language-icon {
+	padding: 0 10px;
+	color: $text-secondary;
+}
+
+.language-text {
+	color: $text-first;
+}

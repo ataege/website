@@ -1,0 +1,16 @@
+@import '../../variables.scss';
+
+.who-am-i {
+	margin: 75px 0;
+	background-color: $color-secondary;
+}
+
+.who-am-i .heading {
+	color: $text-first;
+}
+
+.whoami-text {
+	font-size: 1.4rem;
+	margin: 10px;
+	color: $text-secondary;
+}

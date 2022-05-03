@@ -1,0 +1,23 @@
+@import '../../variables.scss';
+
+.name {
+	color: $text-first;
+}
+
+.banner {
+	padding: 10px 0;
+}
+.profile-picture {
+	width: 215px;
+	margin: 0 auto;
+	filter: drop-shadow(rgba(0, 0, 0, 0.2) 0px 20px 30px);
+}
+
+.profile-picture img {
+	width: 100%;
+	border-radius: 100%;
+}
+
+.subtitle {
+	color: $text-secondary;
+}

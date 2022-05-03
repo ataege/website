@@ -1,0 +1,41 @@
+@import '../../variables.scss';
+
+nav {
+	background-color: $color-secondary !important;
+	padding: 10px 0;
+	margin-bottom: 4rem;
+}
+a {
+	color: $text-secondary !important;
+	&:hover {
+		color: $text-first !important;
+	}
+	&.navbar-item:hover {
+		background-color: $color-first !important;
+	}
+}
+
+.navbar-item {
+	padding: 0.7rem 2rem;
+	font-weight: 600;
+	&:hover {
+		background-color: $color-third !important;
+		transition: all 0.4s;
+	}
+	&:focus,
+	:focus-within {
+		background-color: $color-third !important;
+		transition: all 0.4s;
+		color: $text-first !important;
+	}
+}
+
+.flex {
+	display: flex;
+	justify-content: space-between !important;
+}
+
+#end {
+	display: flex;
+	justify-content: space-between;
+}
