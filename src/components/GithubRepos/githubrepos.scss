@@ -1,0 +1,40 @@
+@import '../../variables.scss';
+
+.repoBox {
+  background-color: $color-secondary;
+  &:hover {
+    transform: translateY(-3px);
+    transition: 0.4s;
+  }
+}
+
+a.title {
+  color: $text-secondary;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  &:hover {
+    color: $text-first;
+  }
+}
+
+.description {
+  color: $text-secondary;
+  height: 48px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.lang,
+.starCount {
+  color: $text-third;
+  font-size: 1rem;
+}
+
+.fa-star {
+  color: gold;
+  font-size: 100%;
+}

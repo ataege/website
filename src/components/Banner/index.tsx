@@ -17,7 +17,7 @@ export default function Navbar() {
 					<div className="margin-top: 1.25rem">
 						<h1 className="title is-1 has-text-centered-touch name">Ata Ege</h1>
 						<h2 className="subtitle is-3 has-text-centered-touch job-title">
-							Backend & Discord Developer
+							Web Developer
 						</h2>
 						<Socials />
 					</div>

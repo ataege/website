@@ -4,6 +4,8 @@ import Banner from './components/Banner';
 import Navbar from './components/Navbar';
 import WhoAmIBox from './components/WhoAmIBox';
 import Techs from './components/Techs';
+import GithubRepos from './components/GithubRepos';
+import Footer from './components/Footer';
 
 function App() {
 	return (
@@ -19,7 +21,9 @@ function App() {
 						<Techs />
 					</div>
 				</div>
+				<GithubRepos/>
 			</div>
+			<Footer/>
 		</>
 	);
 }
